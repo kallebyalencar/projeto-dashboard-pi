@@ -40,15 +40,15 @@ include_once 'includes/header.php';
         <div class="form">
           <div class="item-form">
             <label for="surname">Latitude:</label>
-            <input type="text" name="bairro" id="bairro" placeholder="51.507351">
+            <input type="text" name="latitude" id="latitude" placeholder="51.507351">
           </div>
           <div class="item-form">
             <label for="name">Longitude:</label>
-            <input type="text" name="rua" id="rua" placeholder="-0.127758">
+            <input type="text" name="longitude" id="longitude" placeholder="-0.127758">
           </div>
           <div class="item-form">
             <label for="country">Decibéis:</label>
-            <input type="text" name="numero" id="numero" placeholder="85">
+            <input type="text" name="decibeis" id="decibeis" placeholder="85">
           </div>
         </div>
         <div class="form-button">

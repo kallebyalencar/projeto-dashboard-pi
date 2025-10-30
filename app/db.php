@@ -6,10 +6,9 @@ function register() {
     $conn = connectDB();
 
     if(isset($_POST['btn-cadastrar'])) {
-        $rua = pg_escape_string($conn, $_POST['rua']);
-        $bairro = pg_escape_string($conn, $_POST['bairro']);
-        $numero = pg_escape_string($conn, $_POST['numero']);
-        $cep = pg_escape_string($conn, $_POST['cep']);
+        $latitude = pg_escape_string($conn, $_POST['latitude']);
+        $longitude = pg_escape_string($conn, $_POST['longitude']);
+        $decibeis = pg_escape_string($conn, $_POST['decibeis']);
     }
 
     $sql = "INSERT INTO monitoramento_ruido ()";
