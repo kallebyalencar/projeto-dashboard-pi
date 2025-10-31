@@ -6,7 +6,7 @@
             <div class="logo">
                 <div class="logotipo">
                     <figure>
-                        <img src="assets/img/ear.png" alt="Logo">
+                        <a href="../projeto-dashboard-pi/index.php"><img src="assets/img/ear.png" alt="Logo"></a>
                     </figure>
                 </div>
                 <div class="text-header">
