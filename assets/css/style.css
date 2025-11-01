@@ -84,13 +84,24 @@ main {
 
 .main-explication {
     margin: 0 auto;
+    max-width: 800px;
 }
 
 .main-explication h1 {
     font-size: 38px;
+    text-align: center;
     letter-spacing: 2px;
     line-height: 50px;
     font-weight: bold;
+}
+
+.main-explication h2 {
+    font-size: 38px;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
 .main-explication p {
@@ -98,6 +109,7 @@ main {
     margin-bottom: 30px;
     font-size: 20px;
     line-height: 1.5;
+    text-align: justify;
 }
 
 /* form */
@@ -108,7 +120,7 @@ main {
     background-color: #8B52FD40;
     border: 2px solid #7F3FFF;
     border-radius: 3px;
-    width: 60%;
+    max-width: 800px;
     margin: 0 auto;
 }
 
@@ -118,19 +130,15 @@ main {
 }
 
 .title-form span {
-    font-size: 35px;
+    padding-right: 7px;
     color: #7F3FFF;
 }
 
-.title-form h4 {
-    padding-left: 5px;
-    
-}
 
 .contact-form h4 {
     color: #FFFFFF;
     font-size: 24px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .form {
@@ -166,17 +174,18 @@ main {
 .form-button {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .btn {
     background-color: #7F3FFF;
     color: #FFFFFF;
-    width: 96%;
+    width: 95%;
     height: 50px;
     border-radius: 6px;
     border: none; 
     text-decoration: none;
-    color: #FFFFFF;
     font-size: 18px;
     cursor: pointer;
     transition: all 0.3s;
@@ -186,6 +195,33 @@ main {
     }
 }
 
+.btn a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.try-again {
+    background-color: rgb(103, 103, 103);
+    width: 95%;
+    height: 50px;
+    border-radius: 6px;
+    border: none; 
+    color: #FFFFFF;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s;
+    &:hover {
+        transition: all 0.3s;
+        opacity: 90%;
+    } 
+}
+
+.try-again a {
+    color: #fff;
+    text-decoration: none;
+}
+
 
 /* TABELA */
 
@@ -193,8 +229,9 @@ main {
     background-color: #8B52FD40;
     border: 2px solid #7F3FFF;
     border-radius: 6px;
-    width: 70vw;
+    width: 60vw;
     margin: 0 auto;
+    margin-bottom: 20px;
     padding: 20px;
 }
 
@@ -216,6 +253,7 @@ main {
 }
 
 .data-view {
+    margin-bottom: 30px;
     max-height: 250px; /* altura do scroll */
     overflow-y: auto;
     border-radius: 6px;
@@ -273,6 +311,18 @@ table tbody .download {
 table tbody .delete {
     background-color: #FF0000;
 }
+
+.table-display .btn-table {
+    color: #FFFFFF;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s;
+    &:hover {
+        transition: all 0.3s;
+        letter-spacing: 1px;
+    }
+}
+
 
 /* footer */
 

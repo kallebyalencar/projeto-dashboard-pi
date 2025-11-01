@@ -1,5 +1,5 @@
 <?php
-include_once 'includes/header.php';
+include_once 'includes/header2.php';
 ?>
 
 <header class="head-container">
@@ -21,9 +21,7 @@ include_once 'includes/header.php';
 <main>
   <section>
     <div class="main-explication">
-      <h1>Sobre o Sistema</h1>
-      <p>O Sistema de Monitoramento de Ruído Urbano tem como função registrar e apresentar informações sobre os níveis sonoros em diferentes regiões da cidade. Ao acessar o sistema, o usuário informa o seu CEP e visualiza automaticamente a localização correspondente. Em seguida, ele confere se as informações exibidas estão corretas e, caso não estejam, pode retornar e corrigir antes de prosseguir.</p>
-      <p>Após confirmar o local, o usuário pode cadastrar o valor de ruído medido, que é registrado junto com a data e o horário da coleta. No final, o sistema permite fazer o download de uma tabela com todos os resultados obtidos, reunindo as medições e suas respectivas localizações. Dessa forma, o projeto oferece uma maneira simples e eficiente de acompanhar e analisar os níveis de ruído presentes na cidade.</p>
+      <h2>Esse é o seu endereço ?</h2>
     </div>
   </section>
 
@@ -34,16 +32,29 @@ include_once 'includes/header.php';
           <span class="material-symbols-outlined">
             add_location_alt
           </span>
-          <h4>Informe o seu local</h4>
+          <h4>Informações do Local</h4>
         </div>
         <div class="form">
           <div class="item-form">
+            <label for="name">Rua:</label>
+            <input type="text" name="rua" id="rua" disabled>
+          </div>
+          <div class="item-form">
+            <label for="name">Número:</label>
+            <input type="text" name="num" id="num" disabled>
+          </div>
+          <div class="item-form">
+            <label for="name">Bairro:</label>
+            <input type="text" name="bairro" id="bairro" disabled>
+          </div>
+          <div class="item-form">
             <label for="name">Cep:</label>
-            <input type="text" name="cep" id="cep" placeholder="12345-123" required>
+            <input type="text" name="cep" id="cep" disabled>
           </div>
         </div>
         <div class="form-button">
           <button type="submit" name="btn-cadastrar" class="btn"><a href="#">Confirmar</a></button>
+          <button type="submit" name="btn-cadastrar" class="try-again"><a href="../projeto-dashboard-pi/index.php">Tentar novamente</a></button>
         </div>
       </div>
     </form>

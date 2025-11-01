@@ -22,7 +22,7 @@
             <div class="main-explication">
                 <h1>Registros de Monitoriamento</h1>
                 <p>Esta página apresenta todos os registros de monitoramento de ruído coletados pelo sistema MonitorRuído.
-                    Os dados incluem informações detalhadas sobre localização (endereço, latitude e longitude), níveis de
+                    Os dados incluem informações detalhadas sobre localização (latitude e longitude), níveis de
                     decibéis medidos, data e hora de cada medição. Estes registros são essenciais para análise de poluição
                     sonora urbana e podem ser utilizados para estudos ambientais, planejamento urbano e fiscalização.</p>
             </div>
@@ -68,12 +68,10 @@
                                 </a>
                             </td>
                         </tr>
-
                     </tbody>
-    
                 </table>
-            </div>
-    
+            </div> 
+            <a href="#" class="btn-table">Fazer download de toda a tabela</a>
         </section>
     </main>
 
