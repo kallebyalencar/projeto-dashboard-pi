@@ -40,16 +40,16 @@ include_once 'includes/header2.php';
             <input type="text" name="rua" id="rua" disabled>
           </div>
           <div class="item-form">
-            <label for="name">Número:</label>
-            <input type="text" name="num" id="num" disabled>
-          </div>
-          <div class="item-form">
             <label for="name">Bairro:</label>
             <input type="text" name="bairro" id="bairro" disabled>
           </div>
           <div class="item-form">
             <label for="name">Cep:</label>
             <input type="text" name="cep" id="cep" disabled>
+          </div>
+          <div class="item-form">
+            <label for="name">Informe o valor do ruído:</label>
+            <input type="text" name="decibeis" id="decibeis" placeholder="Decibéis" required>
           </div>
         </div>
         <div class="form-button">
