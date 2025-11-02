@@ -28,7 +28,7 @@ include_once 'includes/header.php';
   </section>
 
   <section class="contact-form">
-    <form action="" method="POST">
+    <form action="app/location.php" method="POST">
       <div class="container">
         <div class="title-form">
           <span class="material-symbols-outlined">
@@ -39,11 +39,11 @@ include_once 'includes/header.php';
         <div class="form">
           <div class="item-form">
             <label for="name">Cep:</label>
-            <input type="text" name="cep" id="cep" placeholder="12345-123" required>
+            <input type="text" name="cep" id="cep" placeholder="12.345-123" required>
           </div>
         </div>
         <div class="form-button">
-          <button type="submit" name="btn-cadastrar" class="btn"><a href="#">Confirmar</a></button>
+          <button type="submit" name="btn-cadastrar" class="btn">Confirmar</button>
         </div>
       </div>
     </form>
