@@ -23,7 +23,6 @@ class CepService {
             return null;
         }
 
-        // ✅ Nova validação profissional
         // Aceita CEPs genéricos (sem rua/bairro), mas exige cidade e estado
         if (empty($dados['city']) || empty($dados['state'])) {
             return null;
