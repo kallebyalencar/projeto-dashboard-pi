@@ -28,7 +28,7 @@ class CepService {
             return null;
         }
 
-        // Substitui campos vazios por mensagens amigáveis
+        // Substitui campos vazios
         $dados['address_name'] = $dados['address_name'] ?: 'Endereço não disponível';
         $dados['district'] = $dados['district'] ?: 'Bairro não disponível';
 
